@@ -1,0 +1,5 @@
+a=int(input())
+b=a*0.9
+c=a-100
+d=min(b,c)
+print(int(d))
