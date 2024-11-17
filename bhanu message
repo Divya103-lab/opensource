@@ -1,0 +1,13 @@
+import re
+a=input().strip()
+b=r"^\+\d{2} \d{10}$"
+if re.match(b,a):
+    c=a.split()[1]
+    if sum(int(d) for d in c)>0:
+        print("Correct")
+    else:
+        print("Incorrect")
+elif len(a)==10 and a.isdigit():
+    print("Correct")
+else:
+    print("Incorrect")
