@@ -1,0 +1,6 @@
+a=input()
+b=sum(map(int,a))
+if b%2==0:
+    print("Vignesh")
+else:
+    print("Charan")
