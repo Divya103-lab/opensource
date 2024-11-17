@@ -1,0 +1,5 @@
+a,b=map(int,input().split())
+c=a*100
+d=(b+99)//100
+e=max(0,d-a)
+print(e)
