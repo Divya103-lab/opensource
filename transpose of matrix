@@ -1,0 +1,8 @@
+def a(b,matrix):
+    for j in range(b):
+        for i in range(b):
+            print(matrix[i][j],end=" ")
+        print()
+b=int(input())
+matrix=[list(map(int,input().split())) for _ in range(b)]
+a(b,matrix)
