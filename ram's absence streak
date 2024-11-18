@@ -1,0 +1,12 @@
+def a(b,arr):
+    c,d=0,0
+    for e in arr:
+        if e==0:
+            d+=1
+        else:
+            c=max(c,d)
+            d=0
+    return max(c,d)
+b=int(input())
+arr=list(map(int,input().split()))
+print(a(b,arr))
