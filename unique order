@@ -1,0 +1,10 @@
+def a(b,arr):
+    c,d=set(),[]
+    for x in arr:
+        if x not in c:
+            d.append(x)
+            c.add(x)
+    return d
+b=int(input())
+arr=list(map(int,input().split()))
+print(" ".join(map(str,a(b,arr))))
