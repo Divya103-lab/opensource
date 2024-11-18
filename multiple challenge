@@ -1,0 +1,7 @@
+def a(b):
+    c=b//3
+    d=b//5
+    e=b//15
+    return c+d-e
+b=int(input())
+print(a(b))
